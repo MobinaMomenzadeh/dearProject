@@ -1,0 +1,90 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.14.1" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				"foreground": new java.awt.Color( 0, 102, 102, 255 )
+				"text": "kfldddsssdfl;ldkg;flkg"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 40
+				"y": 30
+				"width": 385
+				"height": 150
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "1.edit  info"
+				"foreground": new java.awt.Color( 102, 102, 255, 255 )
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 60
+				"y": 200
+				"width": 150
+				"height": 30
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "3.shoping basket"
+				"foreground": new java.awt.Color( 102, 255, 102, 255 )
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 60
+				"y": 240
+				"height": 30
+				"width": 150
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "4.give point"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+				"foreground": new java.awt.Color( 255, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 60
+				"y": 280
+				"width": 150
+				"height": 30
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "2.view product"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+				"foreground": new java.awt.Color( 204, 102, 255, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 260
+				"y": 200
+				"width": 150
+				"height": 30
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "4.view buy records"
+				"foreground": new java.awt.Color( 0, 102, 51, 255 )
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 260
+				"y": 240
+				"width": 150
+				"height": 30
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button6"
+				"text": "6.add view"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+				"foreground": new java.awt.Color( 102, 255, 204, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 260
+				"y": 280
+				"width": 150
+				"height": 30
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 480, 370 )
+		} )
+	}
+}
